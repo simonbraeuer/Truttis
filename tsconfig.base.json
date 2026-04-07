@@ -1,0 +1,51 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@truttis/core-ui": [
+        "libs/core-ui/src/index.ts"
+      ],
+      "@truttis/core-api": [
+        "libs/core-api/src/index.ts"
+      ],
+      "@truttis/api": [
+        "libs/api/src/index.ts"
+      ],
+      "@truttis/feature-auth": [
+        "libs/feature-auth/src/index.ts"
+      ],
+      "@truttis/feature-settings": [
+        "libs/feature-settings/src/index.ts"
+      ],
+      "@truttis/feature-meetings": [
+        "libs/feature-meetings/src/index.ts"
+      ],
+      "@truttis/feature-dashboard": [
+        "libs/feature-dashboard/src/index.ts"
+      ],
+      "@truttis/feature-users": [
+        "libs/feature-users/src/index.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}
